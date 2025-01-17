@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Super Sedan";
+  src: url("/fonts/super-sedan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Super Sedan", sans-serif;
+  color: white;
+}
+
+.page {
+  width: 100%;
+  height: calc(100vh - 104px);
+}
+
+.dtc-switch {
+  width: 392px;
+  height: 422px;
+  background-image: url("/images/DTC-0.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.dtc-switch.animation {
+  animation: change 1s linear infinite;
+}
+
+@keyframes change {
+  0%,
+  100% {
+    background-image: url("/images/DTC-0.png");
+  }
+  50% {
+    background-image: url("/images/DTC-4.png");
+  }
+}
