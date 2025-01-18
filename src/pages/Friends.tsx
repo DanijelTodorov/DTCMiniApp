@@ -1,48 +1,49 @@
 import { CubeButton } from "../components/CubeButton";
 
 export const Friends = () => {
-  const friends = [
-    {
-      avatar: "images/avatar.png",
-      name: "Amelia",
-      score: "129K",
-    },
-    {
-      avatar: "images/avatar.png",
-      name: "Lee Jia Wei",
-      score: "849k",
-    },
-    {
-      avatar: "images/avatar.png",
-      name: "Lucas",
-      score: "545k",
-    },
-    {
-      avatar: "images/avatar.png",
-      name: "Low Wei Jie",
-      score: "314k",
-    },
-    {
-      avatar: "images/avatar.png",
-      name: "Amelia",
-      score: "129K",
-    },
-    {
-      avatar: "images/avatar.png",
-      name: "Lee Jia Wei",
-      score: "849k",
-    },
-    {
-      avatar: "images/avatar.png",
-      name: "Lucas",
-      score: "545k",
-    },
-    {
-      avatar: "images/avatar.png",
-      name: "Low Wei Jie",
-      score: "314k",
-    },
-  ];
+  // const friends = [
+  //   {
+  //     avatar: "images/avatar.png",
+  //     name: "Amelia",
+  //     score: "129K",
+  //   },
+  //   {
+  //     avatar: "images/avatar.png",
+  //     name: "Lee Jia Wei",
+  //     score: "849k",
+  //   },
+  //   {
+  //     avatar: "images/avatar.png",
+  //     name: "Lucas",
+  //     score: "545k",
+  //   },
+  //   {
+  //     avatar: "images/avatar.png",
+  //     name: "Low Wei Jie",
+  //     score: "314k",
+  //   },
+  //   {
+  //     avatar: "images/avatar.png",
+  //     name: "Amelia",
+  //     score: "129K",
+  //   },
+  //   {
+  //     avatar: "images/avatar.png",
+  //     name: "Lee Jia Wei",
+  //     score: "849k",
+  //   },
+  //   {
+  //     avatar: "images/avatar.png",
+  //     name: "Lucas",
+  //     score: "545k",
+  //   },
+  //   {
+  //     avatar: "images/avatar.png",
+  //     name: "Low Wei Jie",
+  //     score: "314k",
+  //   },
+  // ];
+  const friends: any[] = [];
   return (
     <div className="page overflow-x-hidden overflow-y-scroll">
       <img src="images/DTC-bg.png" className="absolute w-full pt-[130px]"></img>
@@ -51,6 +52,7 @@ export const Friends = () => {
           YOUR FRiENDS
         </span>
         <div className="px-[9px] flex flex-col">
+          {friends.length == 0 ? <span>YOU HAVE NO FRIENDS YET</span> : <></>}
           {friends.map((item, index) => (
             <div
               className="flex justify-between items-center py-3 border-b-[1px] border-b-[#6990A7]"
