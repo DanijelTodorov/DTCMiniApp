@@ -47,12 +47,16 @@ export const Friends = () => {
   return (
     <div className="page overflow-x-hidden overflow-y-scroll">
       <img src="images/DTC-bg.png" className="absolute w-full pt-[130px]"></img>
-      <div className="bg-[#004D57BF] border-[1px] border-[#004D5703] rounded-[33px] m-4 py-[30px] pb-[50px] px-[24px] flex flex-col gap-6 relative z-10">
+      <div className="h-full bg-[#004D57BF] border-[1px] border-[#004D5703] rounded-[33px] m-4 py-[30px] pb-[50px] px-[24px] flex flex-col gap-6 relative z-10">
         <span className="text-[15px] leading-[28px] tracking-[2%] text-white text-center">
           YOUR FRiENDS
         </span>
-        <div className="px-[9px] flex flex-col h-full">
-          {friends.length == 0 ? <span className="text-center">YOU HAVE NO FRIENDS YET</span> : <></>}
+        <div className="px-[9px] flex flex-col">
+          {friends.length == 0 ? (
+            <span className="text-center">YOU HAVE NO FRIENDS YET</span>
+          ) : (
+            <></>
+          )}
           {friends.map((item, index) => (
             <div
               className="flex justify-between items-center py-3 border-b-[1px] border-b-[#6990A7]"
