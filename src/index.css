@@ -37,15 +37,19 @@ body {
     background-image: url("/images/DTC-0.png");
   }
   20% {
+    scale: 80%;
     background-image: url("/images/DTC-1.png");
   }
   40% {
+    scale: 120%;
     background-image: url("/images/DTC-2.png");
   }
   60% {
+    scale: 80%;
     background-image: url("/images/DTC-1.png");
   }
   80% {
+    scale: 120%;
     background-image: url("/images/DTC-2.png");
   }
 }
