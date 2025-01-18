@@ -51,7 +51,7 @@ export const Friends = () => {
         <span className="text-[15px] leading-[28px] tracking-[2%] text-white text-center">
           YOUR FRiENDS
         </span>
-        <div className="px-[9px] flex flex-col">
+        <div className="px-[9px] flex flex-col h-full">
           {friends.length == 0 ? <span className="text-center">YOU HAVE NO FRIENDS YET</span> : <></>}
           {friends.map((item, index) => (
             <div
