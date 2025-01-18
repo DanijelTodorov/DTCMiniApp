@@ -52,7 +52,7 @@ export const Friends = () => {
           YOUR FRiENDS
         </span>
         <div className="px-[9px] flex flex-col">
-          {friends.length == 0 ? <span>YOU HAVE NO FRIENDS YET</span> : <></>}
+          {friends.length == 0 ? <span className="text-center">YOU HAVE NO FRIENDS YET</span> : <></>}
           {friends.map((item, index) => (
             <div
               className="flex justify-between items-center py-3 border-b-[1px] border-b-[#6990A7]"

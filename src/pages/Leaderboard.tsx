@@ -51,7 +51,7 @@ export const Leaderboard = () => {
         <div className="px-[9px] flex flex-col">
           {tasks.length == 0 && (
             <div className="w-full flex flex-col items-center gap-8">
-              <span>YOU HAVE NO FRIENDS YET</span>
+              <span className="text-center">YOU HAVE NO FRIENDS YET</span>
               <div className="relative h-[106px] flex flex-col items-center gap-[40px] rounded-[20px] border-[4px] border-white p-[20px]">
                 <div className="flex items-center justify-center gap-4">
                   <span className="text-[14px] leading-[28px] tracking-[2%] border-r-[1px] border-r-white pr-2">

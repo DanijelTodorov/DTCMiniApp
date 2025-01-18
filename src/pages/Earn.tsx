@@ -6,25 +6,25 @@ export const Earn = () => {
     {
       avatar: "images/avatar.png",
       task: "FOLLOW X",
-      score: "+163",
+      score: "+100",
       link: "https://x.com/dogetonchain",
     },
     {
       avatar: "images/avatar.png",
       task: "LIKE AND REPOST PINNED TWEET ON X",
-      score: "+163",
+      score: "+100",
       link: "https://x.com/dogetonchain",
     },
     {
       avatar: "images/avatar.png",
       task: "JOIN TELEGRAM CHANNEL",
-      score: "+163",
+      score: "+100",
       link: "https://t.me/DogeTonChainnn",
     },
     {
       avatar: "images/avatar.png",
       task: "VISIT WEBSITE",
-      score: "+163",
+      score: "+100",
       link: "https://dogetonchain.com",
     },
   ];
