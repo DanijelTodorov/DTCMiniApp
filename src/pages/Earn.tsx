@@ -32,7 +32,7 @@ export const Earn = () => {
     <div className="page overflow-x-hidden overflow-y-scroll">
       <img src="images/DTC-bg.png" className="absolute w-full pt-[130px]"></img>
       <div className="bg-[#004D57BF] border-[1px] border-[#004D5703] rounded-[33px] m-4 py-[30px] px-[24px] flex flex-col gap-6 relative z-10">
-        <span className="text-[12px] leading-[28px] tracking-[2%] text-white">
+        <span className="text-[15px] leading-[28px] tracking-[2%] text-white">
           Daily tasks
         </span>
         <div className="px-[9px] flex flex-col">
