@@ -36,7 +36,16 @@ body {
   100% {
     background-image: url("/images/DTC-0.png");
   }
-  50% {
-    background-image: url("/images/DTC-4.png");
+  20% {
+    background-image: url("/images/DTC-1.png");
+  }
+  40% {
+    background-image: url("/images/DTC-2.png");
+  }
+  60% {
+    background-image: url("/images/DTC-1.png");
+  }
+  80% {
+    background-image: url("/images/DTC-2.png");
   }
 }
