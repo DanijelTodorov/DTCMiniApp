@@ -74,25 +74,25 @@ export const Home = () => {
       <div className="relative w-full flex justify-center mt-[30px]">
         <img src="images/DTC-bg.png" className="absolute w-full"></img>
         <div
-          className={`dtc-switch relative ${
+          className={`relative dtc-switch ${
             animation ? "animation" : ""
-          } relative z-10 mt-4`}
+          } z-10 mt-4`}
         >
-          <div className="w-[40px] h-[40px] absolute left-[44px] top-[135px] overflow-hidden">
+          <div className="w-[40px] h-[40px] absolute left-[12%] top-[135px] overflow-hidden">
             <img
               className={`absolute w-full transition-all duration-1000`}
               src="images/flow.png"
               style={{ top: pos1 + "px" }}
             ></img>
           </div>
-          <div className="w-[40px] h-[40px] absolute left-[90px] top-[135px] overflow-hidden">
+          <div className="w-[40px] h-[40px] absolute left-[24%] top-[135px] overflow-hidden">
             <img
               className={`absolute w-full transition-all duration-1000`}
               src="images/flow.png"
               style={{ top: pos2 + "px" }}
             ></img>
           </div>
-          <div className="w-[40px] h-[40px] absolute left-[136px] top-[135px] overflow-hidden">
+          <div className="w-[40px] h-[40px] absolute left-[36%] top-[135px] overflow-hidden">
             <img
               className={`absolute w-full transition-all duration-1000`}
               src="images/flow.png"
@@ -102,7 +102,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="relative w-full flex justify-center">
+      <div className="relative w-full flex justify-center mt-4">
         <CubeButton
           className="w-[174px] h-[50px] rounded-[12px] bg-[#003A5C]"
           onClick={startFairyTaleEffect}
