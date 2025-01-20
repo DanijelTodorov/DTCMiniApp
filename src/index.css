@@ -29,7 +29,7 @@ body {
 }
 
 .dtc-switch.animation {
-  animation: change 2s linear;
+  animation: change 1s linear;
 }
 
 @keyframes change {
