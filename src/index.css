@@ -22,30 +22,30 @@ body {
 .dtc-switch {
   width: 435px;
   height: 424px;
-  background-image: url("/images/PIC-01.png");
+  background-image: url("/images/Flow 01.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .dtc-switch.animation {
-  animation: change 0.2s linear;
+  animation: change 0.5s linear;
 }
 
 @keyframes change {
   0% {
-    background-image: url("/images/PIC-01.png");
+    background-image: url("/images/Flow 01.png");
   }
-  /* 25% {
-    background-image: url("/images/PIC-02.png");
-  } */
+  25% {
+    background-image: url("/images/Flow 02.png");
+  }
   50% {
-    background-image: url("/images/PIC-03.png");
+    background-image: url("/images/Flow 03.png");
   }
   75% {
-    background-image: url("/images/PIC-04.png");
+    background-image: url("/images/Flow 02.png");
   }
   100% {
-    background-image: url("/images/PIC-01.png");
+    background-image: url("/images/Flow 05.png");
   }
 }

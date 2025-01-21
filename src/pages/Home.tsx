@@ -16,7 +16,7 @@ export const Home = () => {
     setAnimation(true);
     setTimeout(() => {
       setAnimation(false);
-    }, 1000);
+    }, 500);
     setPos1(-1 * Math.floor((Math.random() * 420) / 60) * 60);
     setPos2(-1 * Math.floor((Math.random() * 420) / 60) * 60);
     setPos3(-1 * Math.floor((Math.random() * 420) / 60) * 60);
@@ -78,21 +78,21 @@ export const Home = () => {
             animation ? "animation" : ""
           } z-10 mt-4`}
         >
-          <div className="w-[40px] h-[40px] absolute left-[12%] top-[135px] overflow-hidden">
+          <div className="w-[40px] h-[40px] absolute left-[15%] top-[135px] overflow-hidden">
             <img
               className={`absolute w-full transition-all duration-1000`}
               src="images/flow.png"
               style={{ top: pos1 + "px" }}
             ></img>
           </div>
-          <div className="w-[40px] h-[40px] absolute left-[24%] top-[135px] overflow-hidden">
+          <div className="w-[40px] h-[40px] absolute left-[26%] top-[135px] overflow-hidden">
             <img
               className={`absolute w-full transition-all duration-1000`}
               src="images/flow.png"
               style={{ top: pos2 + "px" }}
             ></img>
           </div>
-          <div className="w-[40px] h-[40px] absolute left-[36%] top-[135px] overflow-hidden">
+          <div className="w-[40px] h-[40px] absolute left-[36.5%] top-[135px] overflow-hidden">
             <img
               className={`absolute w-full transition-all duration-1000`}
               src="images/flow.png"
