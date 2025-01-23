@@ -49,3 +49,20 @@ body {
     background-image: url("/images/Flow 05.png");
   }
 }
+
+@keyframes scrolling {
+  0% {
+    top: 0px;
+  }
+  100% {
+    bottom: 80px;
+  }
+}
+
+.modal-bg {
+  background: linear-gradient(
+    180.07deg,
+    rgba(0, 120, 136, 0) 67.43%,
+    #006875 87.24%
+  );
+}
