@@ -78,21 +78,21 @@ export const Home = () => {
             animation ? "animation" : ""
           } z-10 mt-4`}
         >
-          <div className="w-[40px] h-[40px] absolute left-[15%] top-[135px] overflow-hidden">
+          <div className="w-[40px] h-[40px] absolute flow-1 left-[15%] top-[135px] overflow-hidden">
             <img
               className={`absolute w-full transition-all duration-1000`}
               src="images/flow.png"
               style={{ top: pos1 + "px" }}
             ></img>
           </div>
-          <div className="w-[40px] h-[40px] absolute left-[26%] top-[135px] overflow-hidden">
+          <div className="w-[40px] h-[40px] absolute flow-2 left-[26%] top-[135px] overflow-hidden">
             <img
               className={`absolute w-full transition-all duration-1000`}
               src="images/flow.png"
               style={{ top: pos2 + "px" }}
             ></img>
           </div>
-          <div className="w-[40px] h-[40px] absolute left-[36.5%] top-[135px] overflow-hidden">
+          <div className="w-[40px] h-[40px] absolute flow-3 left-[36.5%] top-[135px] overflow-hidden">
             <img
               className={`absolute w-full transition-all duration-1000`}
               src="images/flow.png"

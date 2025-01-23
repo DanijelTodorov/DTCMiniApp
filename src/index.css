@@ -20,7 +20,8 @@ body {
 }
 
 .dtc-switch {
-  width: 435px;
+  width: 100%;
+  max-width: 435px;
   height: 424px;
   background-image: url("/images/Flow 01.png");
   background-repeat: no-repeat;
@@ -65,4 +66,43 @@ body {
     rgba(0, 120, 136, 0) 67.43%,
     #006875 87.24%
   );
+}
+
+.flow-1 {
+  position: absolute;
+  left: 15%;
+}
+
+.flow-2 {
+  position: absolute;
+  left: 26%;
+}
+
+.flow-3 {
+  position: absolute;
+  left: 36.5%;
+}
+
+@media (max-width: 320px) {
+  .flow-1 {
+    left: 3%;
+  }
+  .flow-2 {
+    left: 17%;
+  }
+  .flow-3 {
+    left: 32%;
+  }
+}
+
+@media (max-width: 375px) {
+  .flow-1 {
+    left: 10%;
+  }
+  .flow-2 {
+    left: 22%;
+  }
+  .flow-3 {
+    left: 34%;
+  }
 }

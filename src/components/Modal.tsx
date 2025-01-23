@@ -37,7 +37,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
               <span className="text-lg">Dtc's journey from</span>
               <span className="text-xl">heartbreak to hero</span>
             </div>
-            <div className="flex items-center justify-around w-full">
+            <div className="flex items-center justify-around w-full gap-2">
               <img
                 src="images/modal-1.png"
                 className="w-[134px] h-[128px] rounded-[8px]"
@@ -49,7 +49,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
               </span>
             </div>
             <div className="w-[262px] border-[1px] border-[#FFFFFF45]"></div>
-            <div className="flex items-center justify-around w-full">
+            <div className="flex items-center justify-around w-full gap-2">
               <span className="text-[12px] leading-[15px] tracking-[2%] max-w-[180px]">
                 Weeks pass, and DTC's plight worsens. Homeless and begging, he's
                 often met with pity or disdain. Yet, a faint hope persists a
@@ -61,7 +61,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
               ></img>
             </div>
             <div className="w-[262px] border-[1px] border-[#FFFFFF45]"></div>
-            <div className="flex items-center justify-around w-full">
+            <div className="flex items-center justify-around w-full gap-2">
               <img
                 src="images/modal-3.png"
                 className="w-[134px] h-[128px] rounded-[8px]"
@@ -73,7 +73,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
               </span>
             </div>
             <div className="w-[262px] border-[1px] border-[#FFFFFF45]"></div>
-            <div className="flex items-center justify-around w-full">
+            <div className="flex items-center justify-around w-full gap-2">
               <span className="text-[12px] leading-[15px] tracking-[2%] max-w-[180px]">
                 DTC discovers the TON blockchain, finds belonging, and learns
                 crypto. Inspired, he launches a memecoin symbolizing resilience,
@@ -85,7 +85,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
               ></img>
             </div>
             <div className="w-[262px] border-[1px] border-[#FFFFFF45]"></div>
-            <div className="flex items-center justify-around w-full">
+            <div className="flex items-center justify-around w-full gap-2">
               <img
                 src="images/modal-5.png"
                 className="w-[134px] h-[128px] rounded-[8px]"
