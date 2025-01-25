@@ -26,7 +26,7 @@ body {
   background-image: url("/images/Flow 01.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .dtc-switch.animation {
@@ -85,24 +85,30 @@ body {
 
 @media (max-width: 320px) {
   .flow-1 {
-    left: 3%;
+    top: 36%;
+    left: 10px;
   }
   .flow-2 {
+    top: 34%;
     left: 17%;
   }
   .flow-3 {
+    top: 34%;
     left: 32%;
   }
 }
 
 @media (max-width: 375px) {
   .flow-1 {
-    left: 10%;
+    top: 34%;
+    left: 14%;
   }
   .flow-2 {
-    left: 22%;
+    top: 34%;
+    left: 25%;
   }
   .flow-3 {
-    left: 34%;
+    top: 34%;
+    left: 36%;
   }
 }
