@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { CubeButton } from "./CubeButton";
 
 interface ModalProps {
@@ -8,7 +8,6 @@ interface ModalProps {
 
 const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
-  const [page, setPage] = useState(0);
   const onClickleash = () => {
     onClose();
   };
