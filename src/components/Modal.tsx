@@ -10,8 +10,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
   const [page, setPage] = useState(0);
   const onClickleash = () => {
-    if (page == 0) setPage(1);
-    else if (page == 1) onClose();
+    onClose();
   };
 
   return (
@@ -20,18 +19,16 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
       onClick={onClose}
     >
       <div
-        className="modal-bg relative bg-[#004D57A6] border-[1px] border-[#004D57] rounded-[20px] backdrop-blur-lg p-4 py-6 w-full h-full"
+        className="modal-bg relative bg-[#004D57A6] border-[1px] border-[#004D57] rounded-[20px] backdrop-blur-lg p-4 py-6 pb-24 w-full h-full"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="w-full flex justify-end">
           <img src="icons/close.png" className="" onClick={onClose}></img>
         </div>
 
-        <div className="relative w-full h-full overflow-hidden">
+        <div className="relative w-full h-full overflow-scroll">
           <div
-            className={`absolute ${
-              page == 0 ? "top-0" : "bottom-20"
-            } w-full flex flex-col gap-10 items-center absolute transition-all duration-[5000] z-0`}
+            className={`w-full flex flex-col gap-10 items-center absolute transition-all duration-[5000] z-0`}
           >
             <div className="flex flex-col items-center">
               <span className="text-lg">Dtc's journey from</span>
